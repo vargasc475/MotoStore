@@ -34,7 +34,7 @@ export default class Controller {
         const list = document.getElementById('list-details');
         
         // De existir el local storage se ejecutara la funciona para mostrar los datos guardados
-        if (baseList.length != 2) {
+        if (baseList) {
             this.itemList = JSON.parse(baseList);
             this.viewInstance.displayLocalStorage(list, this.itemList);
         }
