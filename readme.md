@@ -1,5 +1,5 @@
 # motoStore
-Pagina para demostrar conocimeinto en HTML, CSS y JS.
+Pagina para demostrar conocimiento en HTML, CSS y JS.
 
 # Iniciar pagina
 Para inciar la pagina se puede hacer localmente usando extensiones del editor de codigo o abrir el enlace para verlo en linea https://vargasc475.github.io/MotoStore/
