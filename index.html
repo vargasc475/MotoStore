@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoStore</title>
+    <script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" width="100" alt="MotoStore Logo">
+        <div id="links-div">
+            <a href="new-item.html">Agregar Moto</a>
+        </div>
+    </header>
+
+    <div id="home-description">
+        <h1>Bienvenido a MotoStore</h1>
+        <p>Aqui encontraras los mejores modelos para cada ocasión y con la mejor calidad.</p>
+    </div>
+
+    <form id="moto-form">
+        <label>
+            <input type="text" name="brand" id="moto-brand" placeholder="Brand" >
+        </label>
+        <label>
+            <input type="text" name="model" id="moto-model" placeholder="Model" >
+        </label>
+        <label>
+            <input type="number" name="year" id="year" placeholder="2015" >
+        </label>
+        <label>
+            <input type="textarea" name="description" id="moto-description" placeholder="Description" >
+        </label>
+        <label>
+            <input type="number" name="amount" id="amount" placeholder="2" >
+        </label>
+        <label>
+            <input type="number" name="price" id="price" placeholder="1780.00" >
+        </label>
+        <button id="submit-button">Agregar Moto</button>
+    </form>
+
+    <div id="div-details">
+        <ul id="list-details"></ul>
+    </div>
+    <footer>
+        <img src="images/logo.png" width="100" alt="MotoStore Logo">
+        <div>
+            <p>© Todos los derechos reservados | MotoStore</p>
+        </div>
+    </footer>
+</body>
+</html>
